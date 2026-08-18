@@ -1,20 +1,28 @@
+---
+output: github_document
+---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
 
 # ECoMAPr
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
-Repository containing the documentation and workflow code related to
-work package 2 of the [ECoMAP
-project](https://betweenthefjords.w.uib.no/ecomap/).
+Repository containing the documentation and workflow code related to work package 2 of the [ECoMAP project](https://betweenthefjords.w.uib.no/ecomap/).
 
 ## Installation
 
-You can install the development version of ECoMAPr from
-[GitHub](https://github.com/) with the following code:
+You can install the development version of ECoMAPr from [GitHub](https://github.com/) with the following code:
 
 ``` r
 # Install the INLA dependancy for the ECoMAPr package (we are working to remove

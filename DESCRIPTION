@@ -1,0 +1,63 @@
+Package: ECoMAPr
+Title: Next-generation species distribution modelling tools
+Version: 0.0.1
+Authors@R: c(
+    person(
+      given = "Joseph", family = "Chipperfield",
+      role = c("aut", "cre"),
+      email = "joseph.chipperfield@nina.no",
+      comment = c(ORCID = "0000-0003-3314-0846")
+    ),
+  person(
+    given = "Robert", family = "Lewis",
+    role = c("aut"),
+    email = "robert.lewis@nina.no"
+  ),
+  person(
+    given = "Trond", family = "Simensen",
+    role = c("aut"),
+    email = "trond.simensen@nina.no"
+  ),
+  person(
+    given = "Adam", family = "Klimes",
+    role = c("aut"),
+    email = "adamklimes3@gmail.com"
+  ),
+  person(
+    given = "Liv Guri", family = "Velle",
+    role = c("aut"),
+    email = "liv.guri.velle@nibio.no"
+  ),
+  person(
+    given = "Vigdis", family = "Vandvik",
+    role = c("aut"),
+    email = "vigdis.vandvik@uib.no"
+  ),
+  person(
+    given = "Joachim", family = "Topper",
+    role = c("aut"),
+    email = "joachim.topper@nina.no"
+  ))
+Maintainer: Joseph D. Chipperfield <joechip90@googlemail.com>
+Description: A package of convienient implementations of the modelling scripts used in
+	the analyses for the ECoMAP project.
+License: GPL-3 + file LICENSE
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Encoding: UTF-8
+Imports:
+    terra,
+    sf,
+    ggplot2,
+    tidyterra,
+    fmesher,
+    future,
+    future.apply,
+    INLA,
+    inlabru
+LazyData: true
+Depends: R (>= 4.3.0)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
